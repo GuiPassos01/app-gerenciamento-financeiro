@@ -1,0 +1,33 @@
+* {
+  padding: 0%;
+  margin: 0%;
+}
+body {
+  background-color: #9fc4a3;
+}
+main {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.header {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.text {
+  text-align: justify;
+  width: 300px;
+}
+
+.form {
+  flex-direction: column;
+}
+
+/* Imagens */
+
+#logo {
+  width: 260px;
+}
