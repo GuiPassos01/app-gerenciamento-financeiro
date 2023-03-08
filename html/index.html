@@ -34,9 +34,7 @@
   </head>
   <body>
     <section class="header">
-      <nav>
-        <h3>Gerenciamento Pessoal</h3>
-      </nav>
+      <h3>Gerenciamento Pessoal</h3>
     </section>
     <hr />
 
@@ -51,6 +49,7 @@
 
       <br />
       <br />
+
       <section class="text">
         <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
 
@@ -62,92 +61,15 @@
 
       <section class="form">
         <!-- Botão para Cadastro -->
-        <button
-          type="button"
-          class="btn btn-primary"
-          data-toggle="modal"
-          data-target="#modalExemplo"
-        >
-          Cadastre-se
-        </button>
-
-        <!-- Modal -->
-        <div
-          class="modal fade"
-          id="modalExemplo"
-          tabindex="-1"
-          role="dialog"
-          aria-labelledby="exampleModalLabel"
-          aria-hidden="true"
-        >
-          <div class="modal-dialog" role="document">
-            <div class="modal-content">
-              <div class="modal-header">
-                <h5 class="modal-title" id="exampleModalLabel">
-                  Coloque suas informações para se cadastrar
-                </h5>
-                <button
-                  type="button"
-                  class="close"
-                  data-dismiss="modal"
-                  aria-label="Fechar"
-                >
-                  <span aria-hidden="true">&times;</span>
-                </button>
-              </div>
-              <!-- Formulario de Cadastro -->
-              <div class="modal-body">
-                <form>
-                <label for="name">
-                  Nome:
-                  <input type="text" name="nome" id="name" />
-                </label>
-
-                <label for="sobrenome">
-                  Sobrenome:
-                  <input type="text" name="sobrenome" id="sobrenome" />
-                </label>
-
-                <label for="email">
-                  Email:
-                  <input type="email" name="email" id="email" />
-                </label>
-
-                <label for="idade">
-                  Data de Nascimento
-                  <input type="date" name="idade" id="idade" />
-                </label>
-
-                <label for="password">
-                    Senha:
-                  <input type="password" name="password" id="password" />
-                </label>
-
-                <label for="confirmPassword">
-                    Confirme sua senha:
-                  <input type="password" name="password" id="password" />
-                </label>
-              </div>
-              <div class="modal-footer">
-                <button
-                  type="button"
-                  class="btn btn-secondary"
-                  data-dismiss="modal"
-                >
-                  Fechar
-                </button>
-                <button type="submit" class="btn btn-primary">
-                  Salvar mudanças
-                </button>
-            </form>
-              </div>
-            </div>
-          </div>
-        </div>
-        <br />
+        <a href="./cadastro.html">
+          <button type="button" class="btn btn-primary">Cadastre-se</button>
+        </a>
         <br />
 
-        <p>Ficou curioso?<a href="#">Saber mais</a></p>
+        <button type="button" class="btn btn-success">Login</button>
+
+        <br />
+        <p>Ficou curioso?<a href="#"> Saber mais</a></p>
       </section>
     </main>
   </body>

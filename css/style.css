@@ -11,6 +11,7 @@ main {
   justify-content: center;
   align-items: center;
 }
+
 .header {
   display: flex;
   justify-content: center;
@@ -23,7 +24,10 @@ main {
 }
 
 .form {
+  display: flex;
   flex-direction: column;
+  justify-content: center;
+  align-items: center;
 }
 
 /* Imagens */
